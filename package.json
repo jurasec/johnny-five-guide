@@ -1,0 +1,14 @@
+{
+  "name": "johnny-five-guide",
+  "version": "0.0.1",
+  "description": "",
+  "homepage": "",
+  "private": true,
+  "author": {
+    "name": "",
+    "email": ""
+  },
+  "dependencies": {
+    "johnny-five": "^0.7.31"
+  }
+}
