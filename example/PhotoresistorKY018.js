@@ -14,5 +14,5 @@ board.on("ready", function() {
   photoresistor.on("data", function() {
     console.log(this.value);
   });
-  
+    
 });

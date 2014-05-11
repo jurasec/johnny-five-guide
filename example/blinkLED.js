@@ -4,7 +4,9 @@ var five = require("johnny-five"),
 
 board.on("ready", function() {
 
-  myLed = new five.Led(13);
+  myLed = new five.Led({
+    pin: 13 
+  });
 
   myLed.strobe();
 
@@ -12,5 +14,6 @@ board.on("ready", function() {
   this.repl.inject({
       led: myLed
   });
+  console.log( 'ready!' );
 
 });

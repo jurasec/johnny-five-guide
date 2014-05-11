@@ -2,10 +2,10 @@ var five = require("johnny-five"),
     board = new five.Board(),
     laserDiode;
 
-  board.on("ready", function() {
+board.on("ready", function() {
 
   laserDiode = new five.Led({
-    pin: 8
+    pin: 9
   });
 
   // Hacemos que este disponible el objeto "laserDiodo" dentro del REPL
