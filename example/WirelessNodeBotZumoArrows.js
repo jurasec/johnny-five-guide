@@ -71,7 +71,7 @@ board.on("ready", function() {
           motor1.rev( speed * 0.5 );
           motor2.fwd( speed * 0.5 );
           break;
-        case 's':
+        case 'space':
           console.log(' => Stoping...');
           motor1.stop();
           motor2.stop();
@@ -91,7 +91,3 @@ board.on("ready", function() {
   process.stdin.resume();
  
 });
-
-
-
-
