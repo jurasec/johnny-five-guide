@@ -9,6 +9,10 @@
     "email": ""
   },
   "dependencies": {
-    "johnny-five": "^0.7.31"
+    "johnny-five": "^0.8.81",
+    "keypress": "^0.2.1",
+    "leapjs": "^0.6.2",
+    "serialport": "^1.4.6",
+    "temporal": "^0.3.7"
   }
 }
